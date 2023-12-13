@@ -4217,15 +4217,15 @@ fieldset:disabled .btn {
 .navbar {
   --bs-navbar-padding-x: 0;
   --bs-navbar-padding-y: 0.5rem;
-  --bs-navbar-color: rgba(var(--bs-emphasis-color-rgb), 0.65);
-  --bs-navbar-hover-color: rgba(var(--bs-emphasis-color-rgb), 0.8);
+  --bs-navbar-color: #1E1E1E;
+  --bs-navbar-hover-color: #1A77CD;
   --bs-navbar-disabled-color: rgba(var(--bs-emphasis-color-rgb), 0.3);
-  --bs-navbar-active-color: rgba(var(--bs-emphasis-color-rgb), 1);
+  --bs-navbar-active-color: #1A77CD;
   --bs-navbar-brand-padding-y: 0.2rem;
   --bs-navbar-brand-margin-end: 1rem;
   --bs-navbar-brand-font-size: 2rem;
-  --bs-navbar-brand-color: rgba(var(--bs-emphasis-color-rgb), 1);
-  --bs-navbar-brand-hover-color: rgba(var(--bs-emphasis-color-rgb), 1);
+  --bs-navbar-brand-color: #1A77CD;
+  --bs-navbar-brand-hover-color: #1A77CD;
   --bs-navbar-nav-link-padding-x: 0.5rem;
   --bs-navbar-toggler-padding-y: 0.25rem;
   --bs-navbar-toggler-padding-x: 0.75rem;
@@ -12552,6 +12552,38 @@ img {
 body {
   font-family: "Rubik", sans-serif;
   font-size: 300;
+}
+
+header .navbar-toggler span {
+  display: block;
+  width: 30px;
+  height: 3px;
+  background-color: #1A77CD;
+  margin-bottom: 5px;
+}
+
+header .navbar-toggler span:last-of-type {
+  margin-bottom: 0;
+}
+
+header .navbar-nav a {
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  text-align: center;
+  padding: 10px;
+  font-weight: 500;
+}
+
+@media (min-width: 768px) {
+  header .navbar-nav .nav-item {
+    margin-left: 30px;
+  }
+}
+
+@media (min-width: 1200px) {
+  header .navbar-nav .nav-item {
+    margin-left: 51px;
+  }
 }
 
 /*# sourceMappingURL=theme.css.map */
