@@ -19,5 +19,25 @@ $(document).ready(function(){
         animation();
     });
     animation();
+    
+    // TEAM SLIDER
+    
+    if($('.team-members-slider').length > 0){
+        $('.team-members-slider').owlCarousel({
+            autoplay: true,
+            autoplayHoverPause: 3000,
+            loop: true,
+            responsive:{
+                    0:{
+                        items: 1,
+                        margin: 0
+                    },
+                    992:{
+                        items: 2,
+                        margin: 30
+                    }
+                }
+        });
+    }
 });
 
