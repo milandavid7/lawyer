@@ -1,0 +1,20 @@
+
+$info-bg: $dark-blue;
+$info-text: #586C88;
+
+.info-section{
+    padding: 75px 0 69px;
+    background-color: $info-bg;
+    
+    p, a{
+        color: $info-text;
+        line-height: 2.5rem;
+        font-weight: $font-weight-normal;
+        
+        span{
+            font-size: 2rem;
+            margin-right: 12px;
+        }
+    }
+}
+
