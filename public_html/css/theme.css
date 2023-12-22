@@ -12700,4 +12700,34 @@ header .navbar-nav a {
   margin-right: 12px;
 }
 
+footer {
+  padding: 15px 0;
+}
+
+footer .social a {
+  color: #2C2D3C;
+  margin-left: 10px;
+  font-size: 2.5rem;
+  transition: all 0.5s linear;
+}
+
+footer .social a:hover {
+  transform: rotate(360deg);
+}
+
+footer .copyright {
+  color: #586C88;
+  font-size: 1.2rem;
+  line-height: 4.1rem;
+  font-weight: 500;
+}
+
+footer .copyright a {
+  color: #586C88;
+}
+
+footer .copyright a:hover {
+  text-decoration: underline;
+}
+
 /*# sourceMappingURL=theme.css.map */
