@@ -5,19 +5,19 @@ $services-description: #F5F5F5;
 
 .service-section{
     padding: 77px 0 89px;
-    
+
     h2{
         margin-bottom: 45px;
     }
-    
+
     .service-item{
         margin-bottom: 27px;
-        
+
         span{
             color: $service-text;
         }
     }
-    
+
     &.dark-services-section{
         background-color: $dark-services-bg;
         h2{
@@ -34,6 +34,25 @@ $services-description: #F5F5F5;
             line-height: 1.7rem;
             font-weight: $font-weight-medium;
         }
+    }
+}
+
+// SERVICES SINGLE PAGE
+
+.service-content{
+    padding: 50px 0;
+    ul{
+        list-style: none;
+        padding-left: 0;
+    }
+    p:last-of-type(){
+        margin-bottom: 0;
+    }
+}
+
+@media(min-width:992px){
+    .service-content{
+        padding: 107px 0;
     }
 }
 
