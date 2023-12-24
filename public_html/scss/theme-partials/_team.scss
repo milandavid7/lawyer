@@ -1,7 +1,7 @@
 
 .team-section{
     padding: 67px 0 61px;
-    
+
     .team-more{
         font-size: 1.4rem;
         line-height: 1.7rem;
@@ -9,7 +9,7 @@
         text-transform: uppercase;
         text-decoration: none;
     }
-    
+
     .team-member-name{
         margin-bottom: 1.5rem;
         a{
@@ -17,11 +17,11 @@
             line-height: 2.7rem;
         }
     }
-    
+
     .team-member-info{
         margin-bottom: 3rem;
     }
-    
+
     .fa-linkedin-in{
         color: $gray-900;
         font-size: 3rem;
@@ -33,6 +33,48 @@
         .team-member-info{
             margin-bottom: 10rem;
         }
+    }
+}
+
+// TEAM PAGE
+
+.team-members{
+    padding: 50px 0;
+    figure{
+        overflow: hidden;
+        img{
+            transition: all 1s linear;
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+
+    }
+    .fa-linkedin-in{
+        position: absolute;
+        right: 15px;
+        bottom: 16px;
+        font-size: 3rem;
+        z-index: 5;
+    }
+    h5 a{
+        font-size: 2.2rem;
+        line-height: 2.7rem;
+        color: $gray-900;
+        &:hover{
+            color: lighten($gray-900, 20%);
+        }
+    }
+    .team-member-position{
+        font-size: 1.8rem;
+        line-height: 2.7rem;
+        font-weight: $font-weight-medium;
+    }
+}
+
+@media(min-width:992px){
+    .team-members{
+        padding: 64px 0 135px;
     }
 }
 
