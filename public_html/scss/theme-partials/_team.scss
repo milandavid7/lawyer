@@ -65,16 +65,37 @@
             color: lighten($gray-900, 20%);
         }
     }
-    .team-member-position{
+    
+}
+.team-member-position{
         font-size: 1.8rem;
         line-height: 2.7rem;
         font-weight: $font-weight-medium;
     }
-}
 
 @media(min-width:992px){
     .team-members{
         padding: 64px 0 135px;
+    }
+}
+
+//TEAM SINGLE PAGE
+
+.team-single{
+    padding: 50px 0;
+    .team-member-text{
+        p{
+            margin-bottom: 2rem;
+        }
+        & p:last-of-type(){
+            margin-bottom: 0;
+        }
+    }
+}
+
+@media(min-width:992px){
+    .team-single{
+        padding: 100px 0 150px;
     }
 }
 

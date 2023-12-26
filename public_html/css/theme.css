@@ -13699,7 +13699,7 @@ header .navbar-nav a {
   color: #515151;
 }
 
-.team-members .team-member-position {
+.team-member-position {
   font-size: 1.8rem;
   line-height: 2.7rem;
   font-weight: 500;
@@ -13708,6 +13708,24 @@ header .navbar-nav a {
 @media (min-width: 992px) {
   .team-members {
     padding: 64px 0 135px;
+  }
+}
+
+.team-single {
+  padding: 50px 0;
+}
+
+.team-single .team-member-text p {
+  margin-bottom: 2rem;
+}
+
+.team-single .team-member-text p:last-of-type {
+  margin-bottom: 0;
+}
+
+@media (min-width: 992px) {
+  .team-single {
+    padding: 100px 0 150px;
   }
 }
 
