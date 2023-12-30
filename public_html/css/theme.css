@@ -13785,4 +13785,58 @@ footer .copyright a:hover {
   }
 }
 
+.news-section {
+  padding: 50px 0;
+}
+
+.news-section .news-item-content h2 a, .news-section .news-item-content .h2 a {
+  color: #1E1E1E;
+  line-height: 4rem;
+  margin-bottom: 15px;
+}
+
+.news-section .news-item-content h2 a:hover, .news-section .news-item-content .h2 a:hover {
+  text-decoration: underline;
+}
+
+.news-section .news-item-content .news-item-description {
+  line-height: 2.5rem;
+  height: 7.5rem;
+  overflow: hidden;
+}
+
+.news-section .news-item-content .read-more {
+  font-weight: 500;
+  color: #1A77CD;
+}
+
+.news-section .news-item-content .read-more:hover {
+  color: #62a9eb;
+}
+
+.news-section .news-item-img {
+  overflow: hidden;
+}
+
+.news-section .news-item-img img {
+  transition: 0.5s linear;
+  width: 100%;
+}
+
+.news-section .news-item-img img:hover {
+  transform: scale(1.2);
+}
+
+@media (min-width: 992px) {
+  .news-section {
+    padding: 115px 0 135px;
+  }
+  .news-section .news-item {
+    margin-bottom: 114px !important;
+  }
+  .news-section h2 a, .news-section .h2 a {
+    line-height: 4.6rem;
+  }
+}
+
 /*# sourceMappingURL=theme.css.map */
