@@ -13839,4 +13839,42 @@ footer .copyright a:hover {
   }
 }
 
+.news-single-lead-section {
+  padding: 140px 0;
+  background-position: right top;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+}
+
+.news-single-lead-section .news-single-lead-content {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.news-single-lead-section .news-single-lead-content .news-single-title {
+  font-size: 3.6rem;
+  line-height: 4.6rem;
+}
+
+.news-single-section {
+  padding: 50px 0;
+}
+
+.news-single-section p {
+  margin-bottom: 30px;
+}
+
+.news-single-section p img {
+  width: 100%;
+}
+
+.news-single-section .news-tags .tag-title {
+  font-weight: 500;
+}
+
+@media (min-width: 992px) {
+  .news-single-section {
+    padding: 67px 0 145px;
+  }
+}
+
 /*# sourceMappingURL=theme.css.map */

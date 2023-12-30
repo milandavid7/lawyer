@@ -1,0 +1,36 @@
+
+.news-single-lead-section{
+    padding: 140px 0;
+    background-position: right top;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+
+    .news-single-lead-content{
+        background-color: rgba($white, 0.8);
+        .news-single-title{
+            font-size: 3.6rem;
+            line-height: 4.6rem;
+        }
+    }
+}
+
+.news-single-section{
+    padding: 50px 0;
+    p{
+        margin-bottom: 30px;
+        img{
+            width: 100%;
+        }
+    }
+    .news-tags{
+        .tag-title{
+            font-weight: $font-weight-medium;
+        }
+    }
+}
+
+@media(min-width: 992px){
+    .news-single-section{
+        padding: 67px 0 145px;
+    }
+}
