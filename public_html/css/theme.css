@@ -2435,7 +2435,7 @@ progress {
 }
 
 .form-control::placeholder {
-  color: var(--bs-secondary-color);
+  color: rgba(88, 108, 136, 0.8);
   opacity: 1;
 }
 
@@ -13874,6 +13874,58 @@ footer .copyright a:hover {
 @media (min-width: 992px) {
   .news-single-section {
     padding: 67px 0 145px;
+  }
+}
+
+.contact-lead-section p, .contact-lead-section a {
+  color: #586C88;
+  line-height: 2.5rem;
+  font-weight: 400;
+}
+
+.contact-lead-section p span, .contact-lead-section a span {
+  font-size: 2rem;
+  margin-right: 12px;
+}
+
+.contact-section {
+  padding: 50px 0;
+}
+
+.contact-section h2, .contact-section .h2 {
+  line-height: 4.6rem !important;
+}
+
+.contact-section .form-group {
+  margin-bottom: 20px;
+}
+
+.contact-section .form-control {
+  background-color: rgba(37, 61, 97, 0.02);
+  border: none;
+  height: 50px;
+  line-height: 50px;
+  padding-left: 20px;
+  color: rgba(88, 108, 136, 0.8);
+}
+
+.contact-section textarea.form-control {
+  height: 350px;
+  resize: none;
+}
+
+.contact-section .error-msg {
+  color: #dc3545;
+  font-size: 1.3rem;
+}
+
+.contact-map iframe {
+  min-width: 100%;
+}
+
+@media (min-width: 992px) {
+  .contact-section {
+    padding: 65px 0 130px;
   }
 }
 
